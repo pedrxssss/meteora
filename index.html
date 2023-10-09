@@ -22,7 +22,10 @@
             <div class="container-fluid">
 
                 <!-- Link de retorno ( Marca da empresa ) -->
-                <a class="navbar-brand" href="#"><h1 class="m-0"><img class="d-block" src="assets/logo-meteora.png" alt="Logo da loja meteora"></h1></a>
+                <a class="navbar-brand" href="#">
+                    <h1 class="m-0"><img class="d-block" src="assets/logo-meteora.png"
+                            alt="Logo da loja meteora"></h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -62,72 +65,82 @@
             </div>
         </nav>
 
-        <!-- Carrossel de Imagens -->
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-  
-        <div class="carousel-inner">
-  
-          <!-- Imagem 1 -->
-          <div class="carousel-item active">
-            <!-- Imagem Mobile -->
-            <img src="assets/Mobile/banner1-mobile.png" alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilas" class="img-fluid d-md-none d-xl-none">
-
-            <!-- Imagem Tablet -->
-            <img src="assets/Tablet/banner1-tablet.png" alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilas" class="img-fluid d-none d-md-block d-xl-none">
-
-            <!-- Imagem Desktop -->
-            <img src="assets/Desktop/banner1-desktop.png" alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilas" class="img-fluid d-none d-xl-block">
-          </div>
-  
-          <!-- Imagem 2 -->
-          <div class="carousel-item active">
-            <!-- Imagem Mobile -->
-            <img src="assets/Mobile/banner2-mobile.png" alt="#" class="img-fluid d-xl-none d-md-none"> 
-
-            <!-- Imagem Tablet -->
-            <img src="assets/Tablet/banner2-tablet.png" alt="#" class="img-fluid d-none d-md-block d-xl-none">
-
-            <!-- Imagem Desktop -->
-            <img src="assets/Desktop/banner2-desktop.png" alt="#" class="img-fluid d-none d-xl-block">
-
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+        <!-- Carrossel -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-          </div>
-  
-          <!-- Imagem 3 -->
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
 
-        <!-- Botoes do carrossel -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+            <!-- Imagens do Carrossel -->
+            <!-- Imagem 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- Imagem Mobile -->
+                    <img src="assets/Mobile/banner1-mobile.png" alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás." class="img-fluid w-100 d-md-none d-xl-none">
+                    <!-- Imagem Tablet -->
+                    <img src="assets/Tablet/banner1-tablet.png" alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás." class="img-fluid w-100 d-none d-md-block d-xl-none">
+                    <!-- Imagem Desktop -->
+                    <img src="assets/Desktop/banner1-desktop.png" alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás." class="img-fluid w-100 d-none d-xl-block">
+                </div>
+
+                <!-- Imagem 2 -->
+                <div class="carousel-item position-relative">
+
+                    <!-- Imagem Mobile -->
+                    <img src="assets/Mobile/banner2-mobile.png" alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa." class="img-fluid w-100 d-md-none d-xl-none">
+                    <!-- Imagem Tablet -->
+                    <img src="assets/Tablet/banner2-tablet.png" alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa." class="img-fluid w-100 d-none d-md-block d-xl-none">
+                    <!-- Imagem Desktop -->
+                    <img src="assets/Desktop/banner2-desktop.png" alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa." class="img-fluid w-100 d-none d-xl-block">
+                    
+                    <div class="carousel-caption position-absolute posicao">
+                        <h5 class="fs-1">Coleção Atemporal</h5>
+                        <p class="fs-4">Estilo e qualidade para durar.</p>
+                    </div>
+                </div>
+
+                <!-- Imagem 3 -->
+                <div class="carousel-item position-relative">
+
+                    <!-- Imagem Mobile -->
+                    <img src="assets/Mobile/banner3-mobile.png" alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa." class="img-fluid w-100 d-md-none d-xl-none">
+
+                    <!-- Imagem Tablet -->
+                    <img src="assets/Tablet/banner3-tablet.png" alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa." class="img-fluid w-100 d-none d-md-block d-xl-none">
+
+                    <!-- Imagem Desktop -->
+                    <img src="assets/Desktop/banner3-desktop.png" alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa." class="img-fluid w-100 d-none d-xl-block">
+
+                    <div class="carousel-caption position-absolute posicao">
+                        <h5 class="fs-1">Coleção Atemporal</h5>
+                        <p class="fs-4 texto">Alto impacto visual, baixo impacto ambiental!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botoes -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
 
     <!-- Main ( Principal da página ) -->
     <main>
         <!-- Título do card Busque por categoria -->
         <h2 class="text-center">Busque por categoria:</h2>
-
         <!-- Cards Busque por categoria -->
         <div class="container row mx-auto g-4">
 
@@ -242,7 +255,6 @@
 
         <!-- Título de "Produtos que estão bombando!" -->
         <h2 class="text-center">Produtos que estão bombando!</h2>
-
         <!-- Cards "Produtos que estão bombando!" -->
         <div class="container row mx-auto g-4">
 

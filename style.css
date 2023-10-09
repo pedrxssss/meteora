@@ -1,0 +1,28 @@
+.btPurple {
+    color: white;
+    background-color: #9353FF;
+}
+
+.verde-limao {
+    color: #DAFF01;
+}
+
+.posicao {
+    top: 40%;
+}
+
+@media(max-width: 767px) {
+    .posicao {
+        top: 57%;
+    }
+}
+
+@media(max-width: 374px) {
+    .posicao {
+        top: 45%;
+    }
+
+    .texto {
+        line-height: 1.4rem;
+    }
+}
