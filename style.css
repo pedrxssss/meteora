@@ -3,6 +3,13 @@
     background-color: #9353FF;
 }
 
+.btPurple:hover {
+    color: #9353FF;
+    background-color: white;
+    transition: .3s;
+    border: 1px solid #9353FF;
+}
+
 .verde-limao {
     color: #DAFF01;
 }
