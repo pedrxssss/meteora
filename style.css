@@ -13,7 +13,8 @@ body {
 }
 
 /* Valor dos produtos da seção "Produtos que estão bombando */
-.valor-produto, .tituloProduto {
+.valor-produto,
+.tituloProduto {
     font-weight: 700;
 }
 
@@ -39,6 +40,9 @@ body {
     top: 40%;
 }
 
+/* Input Formulário */
+
+
 @media(max-width: 767px) {
     .posicao {
         top: 57%;
@@ -52,5 +56,29 @@ body {
 
     .texto {
         line-height: 1.4rem;
+    }
+}
+
+@media(min-width: 768px) {
+    form {
+        width: 70%;
+        margin: auto;
+    }
+
+    .input-formulario {
+        width: 464px;
+        margin: auto;
+    }
+}
+
+@media(min-width: 1220px) {
+    form {
+        width: 50%;
+        margin: auto;
+    }
+
+    .input-formulario {
+        width: 464px;
+        margin: auto;
     }
 }
