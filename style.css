@@ -1,15 +1,36 @@
+/* Variáveis */
+:root {
+    /* Fonte */
+    --fonte: 'Inter', sans-serif;
+    /* Cores de fundo e da fonte */
+    --roxo: #9353FF;
+    --branco: #FFFFFF;
+}
+
+/* Body */
+body {
+    font-family: var(--fonte);
+}
+
+/* Valor dos produtos da seção "Produtos que estão bombando */
+.valor-produto, .tituloProduto {
+    font-weight: 700;
+}
+
+/* Botão roxo da seção "Produtos que estão bombando" e "Formulário" */
 .btPurple {
-    color: white;
-    background-color: #9353FF;
+    color: var(--branco);
+    background-color: var(--roxo);
 }
 
 .btPurple:hover {
-    color: #9353FF;
-    background-color: white;
+    color: var(--roxo);
+    background-color: var(--branco);
     transition: .3s;
-    border: 1px solid #9353FF;
+    border: 1px solid var(--roxo);
 }
 
+/* Cor dos ícones da seção "Conheça todas as nossas facilidades" */
 .verde-limao {
     color: #DAFF01;
 }
